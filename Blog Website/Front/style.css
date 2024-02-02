@@ -1,0 +1,20 @@
+#background{
+    background-color: #725752; 
+    background-size: 4rem 4rem;
+    background-image:
+      linear-gradient(to right, white .1px, transparent 1px),
+      linear-gradient(to bottom, white, .1px, transparent 1px);
+}
+.BlogPost{
+    background:#878E88;
+    color:black;
+
+    /*Border and Text alignment*/
+    border-style:groove;
+    border-radius: .4em;
+    border-color: #FEF6C9; 
+    text-align: center;
+    
+}
+
+
