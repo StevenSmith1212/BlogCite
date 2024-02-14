@@ -1,20 +1,51 @@
 #background{
-    background-color: #725752; 
+    background-color: #000022; 
     background-size: 4rem 4rem;
     background-image:
-      linear-gradient(to right, white .1px, transparent 1px),
-      linear-gradient(to bottom, white, .1px, transparent 1px);
+      linear-gradient(to right, #B47978 .1px, transparent 1px),
+      linear-gradient(to bottom, #B47978, .1px, transparent 1px);
 }
-.BlogPost{
-    background:#878E88;
-    color:black;
 
-    /*Border and Text alignment*/
-    border-style:groove;
-    border-radius: .4em;
-    border-color: #FEF6C9; 
-    text-align: center;
+.Board{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
 }
+.Board div{
+    margin-top: 1vh;
+     /*Border and Text alignment*/
+     border-style:groove;
+     border-radius: .4em;
+     border-color:transparent;
+     text-align: center;
+}
+
+#feed div{
+    background:#B1AE91;
+    color:#3E2A35;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 
+#commands{
+    display:flex;
+
+}
+
+#AddBlog{
+    display:grid;
+    border-style:groove;
+    border-radius: .4em;
+    border-color:transparent;
+}
+
+#AddBlog Button {
+    background-color:#B1AE91;
+    color: #3E2A35;
+    padding: 0;
+    margin: 0;
+    
+}
